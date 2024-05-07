@@ -46,4 +46,8 @@ public class Token {
         pos.setEnd(end);
         pos.setLine(line);
     }
+
+    public String info() {
+        return this.kind.name() + " -> " + this.value + "\n" + "  Start: " + this.pos.getStart() + " | End: " + this.pos.getEnd() + " | Line: " + this.pos.getLine();
+    }
 }

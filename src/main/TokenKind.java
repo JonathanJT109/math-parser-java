@@ -5,6 +5,7 @@ public enum TokenKind {
     EndOfFile,
     Unexpected,
     Illegal,
+    NewLine,
     EndOfLine,
     Comment,
 
